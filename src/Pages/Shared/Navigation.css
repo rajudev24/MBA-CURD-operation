@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #321fdb;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-list{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.menu-list li{
+    margin-left: 15px;
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+.menu-list li a{
+    text-decoration: none;
+    font-size: 20px;
+   color: white;
+   padding: 10px;
+   border-radius: 10px;
+}
+.menu-list a:hover{
+    background-color: lightgrey;
+    color: black;
+}
+
+.menu-list button{
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 600;
+}

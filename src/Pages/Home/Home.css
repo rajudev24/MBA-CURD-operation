@@ -1,0 +1,25 @@
+.post-show{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.post-details{
+    text-align: center;
+   
+    padding: 10px;
+}
+.post-details img{
+    width: 300px;
+}
+
+.post-details button{
+    padding: 10px 20px;
+    background-color: tomato;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}

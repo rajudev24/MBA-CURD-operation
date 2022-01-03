@@ -1,0 +1,23 @@
+.post-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.input-filed input {
+    width: 40vw;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.input-filed textarea{
+    width: 40vw;
+    padding: 20px;
+}
+
+.input-filed button{
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
